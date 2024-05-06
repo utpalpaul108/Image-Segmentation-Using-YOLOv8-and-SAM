@@ -1,5 +1,5 @@
 
-# <div align='center'>Image Segmentation Using YOLOv8 And SAM🚀</div>
+# <div align='center'>Image Segmentation Using YOLOv8 And SAM</div>
 
 This project provides an implementation of image segmentation using YOLOv8, a state-of-the-art object detection algorithm, coupled with Spatial Attention Module (SAM) for enhanced segmentation accuracy. Leveraging the power of YOLOv8's object detection capabilities and SAM's attention mechanism, this project offers efficient and precise segmentation of images. 
 
