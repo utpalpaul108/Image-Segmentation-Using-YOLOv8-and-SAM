@@ -12,7 +12,7 @@ This project provides an implementation of image segmentation using YOLOv8, a st
 
 ## Dataset
 
-* Here, I have used [this](https://universe.roboflow.com/motherson-hmdiff/tej_priid_2) blood cells dataset. You can use your own dataset.
+Here, I have used [this](https://universe.roboflow.com/motherson-hmdiff/tej_priid_2) blood cells dataset. You can use your own dataset.
 
 
 
