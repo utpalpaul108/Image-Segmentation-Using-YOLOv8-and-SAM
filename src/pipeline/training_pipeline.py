@@ -14,8 +14,12 @@ import os
 class TrainingPipeline:
     def train(self):
         try:
+            if torch.cuda.is_available():
+                device = "cuda"
+            else:
+                device = "cpu"
             model = YOLO("artifacts/model/best.pt")
-            model.train(data="data.yaml", epochs=100, imgsz=640)
+            model.train(data="data.yaml", epochs=100, imgsz=640, device=device)
             # Check if the folder exists
             if os.path.exists('runs'):
                 # Move best Weight
