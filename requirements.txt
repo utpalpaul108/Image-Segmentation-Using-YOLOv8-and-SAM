@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+ultralytics
+torch
+opencv-python 
+pycocotools 
+matplotlib 
+onnxruntime 
+onnx

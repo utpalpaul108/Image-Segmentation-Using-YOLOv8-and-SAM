@@ -1,0 +1,6 @@
+train: ./artifacts/dataset/train/images
+val: ./artifacts/dataset/valid/images
+test: ./artifacts/dataset/test/images
+
+nc: 4
+names: ['PLATELET', 'RBC', 'WBC', 'blood-cell']
