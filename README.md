@@ -16,7 +16,7 @@ This project provides an implementation of image segmentation using YOLOv8, a st
 
 
 
-## <div style="padding-top: 20px" align="center"> Steps to run </div>
+## <div style="padding-top: 20px"> Steps to run </div>
 
 <div style="padding-bottom:10px"><b>STEP 00 :</b> Clone the repository</div>
 
