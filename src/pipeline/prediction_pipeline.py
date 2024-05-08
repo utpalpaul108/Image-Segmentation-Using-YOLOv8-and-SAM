@@ -81,7 +81,7 @@ class PredictionPipeline:
 
             for i, mask in enumerate(masks):
 
-                binary_mask = masks[i].squeeze().numpy().astype(np.uint8)
+                binary_mask = masks[i].squeeze().cpu().numpy().astype(np.uint8)
 
                 # Find the contours of the mask
                 contours, hierarchy = cv2.findContours(binary_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
