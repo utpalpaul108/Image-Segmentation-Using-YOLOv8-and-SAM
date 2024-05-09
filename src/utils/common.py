@@ -1,14 +1,7 @@
 import os
-import yaml
 import json
-# import joblib
 import base64
 from pathlib import Path
-from typing import Any
-# from ensure import ensure_annotations
-# from box import ConfigBox
-# from box.exceptions import BoxValueError
-# from wasteDetection.logger import logger
 
 
 def create_directories(directories_path: list, verbose=True):
