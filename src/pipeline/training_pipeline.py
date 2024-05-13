@@ -8,7 +8,7 @@ class TrainingPipeline:
     def train(self):
         try:
             device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-            model = YOLO("artifacts/model/best.pt")
+            model = YOLO("yolov8x.pt")
             model.train(data="data.yaml", epochs=100, imgsz=640, device=device)
             
             # Check if the folder exists

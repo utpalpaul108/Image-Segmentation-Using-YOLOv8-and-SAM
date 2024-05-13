@@ -44,6 +44,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 pip install 'git+https://github.com/facebookresearch/segment-anything.git'
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+wget https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x.pt
 
 ```
 
