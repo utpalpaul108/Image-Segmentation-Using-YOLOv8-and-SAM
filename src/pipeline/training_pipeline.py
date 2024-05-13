@@ -13,6 +13,7 @@ class TrainingPipeline:
             
             # Check if the folder exists
             if os.path.exists('runs/detect/train/weights/best.pt'):
+                os.makedirs('artifacts/model', exist_ok=True)
                 shutil.copy('runs/detect/train/weights/best.pt', 'artifacts/model')
 
             if os.path.exists('runs'):
